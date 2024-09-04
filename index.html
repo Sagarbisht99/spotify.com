@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"/><link rel="icon" sizes="16x16" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png"/><link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico"/><meta http-equiv="X-UA-Compatible" content="IE=9"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify -Web Player: Music For future</title>
+</head>
+
+<body>
+
+    <div class="container ">
+        <div class="left rounded m-1 margin">
+            <div class="close">
+                <img width="35px" class="invert" src="cross.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded  display flex-direction m-1 ">
+                <div class="logo invert"><img class="width" src="logo.svg" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="">Home</li>
+                    <li><img class="invert" src="search.svg" alt="">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded  m-1 ">
+                <div class="display">
+                    <img class="invert size " src="library.svg" alt="">
+                    <div class="gap font">My Library</div>
+                </div>
+                <div class="songLists">
+                    <ul>
+                    
+                    </ul>
+                </div>
+
+                <div class="anchortags">
+                    <a class="anchors" href="#">Legal</a>
+                    <a class="anchors" href="#">Safty & Privacy center</a>
+                    <a class="anchors" href="#">Privacy Policies</a>
+                    <a class="anchors" href="#">Cookies</a>
+                    <a class="anchors" href="#">About Ads</a>
+                    <a class="anchors" href="#">Accessibility</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="right  rounded ">
+            <div class="header">
+               
+                <div class="nav ">
+                    <div class="hamburgerContainer">
+                       
+                        <img class=" hamburger invert" src="hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#fffff"
+                            fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                            fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="sigup">Sign up</button>
+                    <button class="login">Login</button>
+                </div>
+
+            </div>
+
+            <div class="spotify-playlist">
+                <h1>Spotify Playlist</h1>
+                <div class="card-container display">
+                    <div class="card">
+                        <div class="playbutton"><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+                                viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10" fill="#0eff00" />
+                                <path d="M7 6v12l10-6z" fill="black" transform="translate(5, 5) scale(0.6)"></path>
+                            </svg></div>
+                        <img class="card-image" src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9"
+                            alt="">
+                        <h2>Happpy hits!</h2>
+                        <p>Hits to boost your mood and fill you with hapiness!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+               
+                <div class="playbuttons">
+                    <div class="seekbar invert">
+                        <div class="circle"> 
+                            
+                        </div>
+                    </div>
+
+                    <div class="above-bar">
+                        <div class="info invert">
+                           
+                        </div>
+   
+                        <div class="songButtons invert">
+                           <img width="35" id="previous" src="prev.svg" alt="">
+                           <img width="35" id="play" src="play.svg" alt="">
+                           <img width="35" id="next" src="next.svg" alt="">
+                        </div>
+
+
+                        <div class="timevol">
+                            <div class="song-time invert">
+                                       
+                            </div>
+                            
+                            <div class="volume">
+                                <img class="invert" width="23" src="volume.svg" alt="">
+                                <div class="range">
+                                    <input class="input" type="range" , name = "range" >
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="first.js"></script>
+</body>
+
+</html>

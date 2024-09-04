@@ -1,0 +1,198 @@
+.margin{
+    margin:3px;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.display{
+    display: flex;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.width{
+    width: 110px ;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+
+.m-1{
+    margin-top: 6px;
+}
+
+
+
+.text-align{
+    align-items: center;
+}
+
+.size{
+    width: 25px;
+    align-self: center;
+    font-weight: bold ;
+    
+}
+
+.font{
+    font-size: 20px;
+}
+
+
+
+.margin-right{
+    margin-top: 11px;
+}
+
+.spotify-playlist{
+    padding: 16px;
+}
+
+.sigup{
+    font-size: 16px;
+    font-weight: 700;
+    color: grey;
+    background-color: rgb(33, 33, 33);
+    border: none ;
+}
+
+.sigup:hover{
+    color: white;
+    font-size: 16px;
+}
+
+.border-radius{
+    border-radius: 5px ;
+}
+
+.login{
+    font-size: 16px;
+    width: 120px;
+    padding: 14px;
+    font-weight: 550;
+    border-radius: 30px;
+    color: grey;
+    background-color: rgb(255, 255, 255);
+    border: none ;
+    margin-left: 10px;
+}
+
+.login:hover{
+    color: black;
+    font-weight: 700;
+    
+}
+
+/* For WebKit browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333; /* Dark background color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Dark color for the scrollbar handle */
+    border-radius: 6px; /* Round corners for the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Dark color for the scrollbar handle on hover */
+}
+
+
+
+.playbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.circle{
+    height: 14px ;
+    width: 14px ;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    bottom: 5px ;
+    left: 0%;
+    transition: all 0.3s;
+}
+
+.input{
+    cursor: pointer;
+}
+
+.seekbar{
+    height: 5px;
+    width: 98%;
+    background-color:  black ;
+    position: absolute;
+    bottom: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#play{
+    cursor: pointer;
+}
+#previous{
+    cursor: pointer;
+}
+#next{
+    cursor: pointer;
+}
+
+.info{
+    color: rgb(0, 0, 0) ;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.song-time{
+    color: rgb(0, 0, 0) ;
+    font-size: 17px;
+    font-weight: 700;
+    width: 140px;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
